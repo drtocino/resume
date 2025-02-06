@@ -6,9 +6,10 @@ function App() {
   return (
     <div className="App">
       <h1>Resume</h1>
-      <ExperienceItem title={'UAB'} content={'Worked here as an assistant teacher and a '} image={image1} />
-        {/* <img src='images.png'/> */}
-      {/* </ExperienceItem> */}
+      <h3>Dilan Chuquimia</h3>
+      <p>Sofware developer</p>
+      <ExperienceItem title={'UAB'} content={'Worked here as an assistant teacher and a developer on specific projects'} image={image1} />
+      <ExperienceItem title={'IATec'} content={'Currently working here'} image={image1} />
     </div>
   );
 }
