@@ -1,14 +1,14 @@
-import {useState} from 'react';
+import '../App.css';
 
 export const ExperienceItem = ({ title, content, image }) => {
 
-    const [name, setName] = useState(props);
-
     return (
-        <div class="">
-            <img src=image />
-            <h4>{props}</h4>
-            <span>Item</span>
+        <div class="item-exp">
+            <img class="image-exp" src={image} alt={title}/>
+            <div class="content-exp">
+                <h4>{title}</h4>
+                <span>{content}</span>
+            </div>
         </div>
     );
 }
